@@ -1,0 +1,22 @@
+WHAT IS PRISMA ?
+ORM
+
+ORM ? Object Relation Mapper
+Like a mediator which talks from different language with database.
+
+WHY PRISMA ?
+    -easy to use
+    -beginner friendly
+    -can use types
+    -work for both sql and noSQL
+
+UUID is used when security is the thing
+AUTO_INCREMENT is used when performance is the thing
+
+to search a single paragraph from a whole hundreds of file use  previewFeatures = ["fullTextSearch"] in the client 
+this
+where: {
+      description: {
+        search: query,
+      },
+    },
